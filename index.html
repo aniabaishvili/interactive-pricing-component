@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <title>Interactive Pricing Component</title>
+</head>
+<body>
+  <header>
+    <h1>Simple, traffic-based pricing</h1>
+    <h2>Sign-up for our 30-day trial. 
+      No credit card required. </h2>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="first-half">
+      <h3>100K PAGEVIEWS</h3>
+      <div class="slider">
+        <input id="slider" type="range" min="8" value="20" max="24" step="4">
+      </div>
+      <div class="price">
+        <span id="price">$20.00</span><span id="time-interval">/month</span>
+      </div>
+      </div>
+      <div class="info-box">
+        <span id="Monthly">Monthly Billing</span>
+        <input type="checkbox" id="switch" />
+        <label for="switch"></label>
+        <span id="yearly">Yearly Billing</span>
+        <span id="discount-mobile">-25%</span>
+        <span id="discount-desktop">-25% discount</span>
+      </div>
+
+     <div class="container2">
+      <div class="text-container">
+        <p> <img src="./images/icon-check.svg" >Unlimited websites</p> 
+        <p><img src="./images/icon-check.svg" >100% data ownership</p>
+        <p><img src="./images/icon-check.svg" >Email reports</p>
+      </div>
+      <div class="button-div">
+      <button type="button"><p>Start my trial</p></button>
+      </div>
+    </div>
+
+
+
+    </div>
+  </main>
+  
+</body>
+</html>
